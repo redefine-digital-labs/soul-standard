@@ -43,7 +43,7 @@
     }
   },
   "artifact_state": {
-    "repository_creation": "local_git_created; no remote or commit",
+    "repository_creation": "public_remote_created; source_checkpoint_pushed_and_verified",
     "source_migration": [
       {
         "package": "soulidity_standard",
@@ -53,7 +53,16 @@
     "build": "local production build passed; see workspace build-evidence; remote CI not run",
     "runtime_acceptance": "not_run",
     "independent_deployment": "not_verified",
-    "remote_ci_execution": "not_run"
+    "remote_ci_execution": "not_run",
+    "remote_backup": {
+      "url": "https://github.com/redefine-digital-labs/soul-standard",
+      "visibility": "PUBLIC",
+      "default_branch": "main",
+      "verified_source_commit": "04d8e39bece74ac1ae3a82bbbacb64254f99db12",
+      "source_checkpoint_verified": true,
+      "actions_enabled": false,
+      "scope": "Source backup; independent product/release/runtime status remains as separately recorded"
+    }
   },
   "management": {
     "functions": [
