@@ -1,0 +1,65 @@
+{
+  "created_at_utc": "2026-10-11T08:05:53.685314+00:00",
+  "root": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard",
+  "head": "df4bdffd252da810c278939e3f8678ba3dc77de4",
+  "branch": "codex/ecosystem-extraction",
+  "user_requirement": "Soul只能地址私有持有；去掉共享/托管；禁止Soul安装在另一Soul内；最小资产内核；依据前次审计修改源码",
+  "original_record": {
+    "id": "DOF-001",
+    "record_id": "Rec0C78FYL0KD",
+    "owners_status_preserved": true,
+    "external_record_not_written": true
+  },
+  "baseline_inputs": [
+    {
+      "path": "move/soulidity_standard/Move.toml",
+      "snapshot": "evidence/private-soul-kernel-20261011-r1/baseline/Move.toml",
+      "sha256": "78f8424112601ad8ff73cec5935ed6ed60243db71c365052da2ccba18657f9f7"
+    },
+    {
+      "path": "move/soulidity_standard/Move.lock",
+      "snapshot": "evidence/private-soul-kernel-20261011-r1/baseline/Move.lock",
+      "sha256": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44"
+    },
+    {
+      "path": "move/soulidity_standard/sources/soul.move",
+      "snapshot": "evidence/private-soul-kernel-20261011-r1/baseline/sources/soul.move",
+      "sha256": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7"
+    },
+    {
+      "path": "move/soulidity_standard/tests/kernel_tests.move",
+      "snapshot": "evidence/private-soul-kernel-20261011-r1/baseline/tests/kernel_tests.move",
+      "sha256": "6afb60482519cd9aabd44ea7cf166fde727588de8f46d369d61bd7bace1dc6b1"
+    },
+    {
+      "path": "move/soulidity_standard/tests/foreign.move",
+      "snapshot": "evidence/private-soul-kernel-20261011-r1/baseline/tests/foreign.move",
+      "sha256": "682c688b8aa9554add1406f196ede1fcf8fa6fbf8c63738763f274d90a2a23c3"
+    },
+    {
+      "path": "move/soulidity_standard/tests/publisher_tests.move",
+      "snapshot": "evidence/private-soul-kernel-20261011-r1/baseline/tests/publisher_tests.move",
+      "sha256": "ae21ca40d946a410072d9ea18c8bf801ac19a4f2d773b558708c7c6cb4aa0540"
+    }
+  ],
+  "reference_guards": [
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity/docs/codex/CURRENT.md",
+      "sha256": "2c9cf369d720f5d9319613acf020c2d236c79f3dcbf90057cddc148c39430512"
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/FINAL_AUDIT_CN.md",
+      "sha256": "081e8d08ffe760979c54a1db177a00b4130a0cbd7092e9a661d3954fd7e33439"
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/docs/codex/CURRENT.md",
+      "sha256": "f599b7d3cd7d80f6a29cb45f222c086fbaba188c6b015eaf6ef1bb23a5473c67"
+    }
+  ],
+  "sui_binary": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+  "sui_binary_sha256": "1d7baa7c7314113671415acfa20279b1eedb6ae6d04f286988a00da285e769c3",
+  "sui_version": "sui 1.80.1-671ba71e69c7",
+  "sui_revision": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+  "writes_scope": "soul-standard only; baseline/old audit preserved",
+  "no_commit_push_deploy": true
+}

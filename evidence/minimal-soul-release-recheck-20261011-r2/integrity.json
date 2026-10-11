@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/Move.toml",
+      "expected": "78f8424112601ad8ff73cec5935ed6ed60243db71c365052da2ccba18657f9f7",
+      "actual": "78f8424112601ad8ff73cec5935ed6ed60243db71c365052da2ccba18657f9f7",
+      "matched": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/Move.lock",
+      "expected": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44",
+      "actual": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44",
+      "matched": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/sources/soul.move",
+      "expected": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "actual": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "matched": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/foreign.move",
+      "expected": "682c688b8aa9554add1406f196ede1fcf8fa6fbf8c63738763f274d90a2a23c3",
+      "actual": "682c688b8aa9554add1406f196ede1fcf8fa6fbf8c63738763f274d90a2a23c3",
+      "matched": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/kernel_tests.move",
+      "expected": "6afb60482519cd9aabd44ea7cf166fde727588de8f46d369d61bd7bace1dc6b1",
+      "actual": "6afb60482519cd9aabd44ea7cf166fde727588de8f46d369d61bd7bace1dc6b1",
+      "matched": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/publisher_tests.move",
+      "expected": "ae21ca40d946a410072d9ea18c8bf801ac19a4f2d773b558708c7c6cb4aa0540",
+      "actual": "ae21ca40d946a410072d9ea18c8bf801ac19a4f2d773b558708c7c6cb4aa0540",
+      "matched": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/adversarial-kernel/tests/audit_adversarial.move",
+      "expected": "d5998881699a9ed1587b7aa9479920d5cfe5e2fcfb66cc7fc03bbc3afc1098f6",
+      "actual": "d5998881699a9ed1587b7aa9479920d5cfe5e2fcfb66cc7fc03bbc3afc1098f6",
+      "matched": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/adversarial-kernel/tests/audit_boundaries.move",
+      "expected": "33cfd44153ba17846ae97fa08e480cdf760e4eae0630ad26f66fdb5216f6ff2d",
+      "actual": "33cfd44153ba17846ae97fa08e480cdf760e4eae0630ad26f66fdb5216f6ff2d",
+      "matched": true
+    }
+  ],
+  "module_json_unchanged": true,
+  "all_input_bytes_unchanged": true
+}

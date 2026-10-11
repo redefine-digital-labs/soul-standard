@@ -1,0 +1,165 @@
+{
+  "verified_at_utc": "2026-10-11T07:52:29.041555+00:00",
+  "checks": [
+    {
+      "kind": "original",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/Move.toml",
+      "expected": "78f8424112601ad8ff73cec5935ed6ed60243db71c365052da2ccba18657f9f7",
+      "actual": "78f8424112601ad8ff73cec5935ed6ed60243db71c365052da2ccba18657f9f7",
+      "matched": true
+    },
+    {
+      "kind": "snapshot",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/Move.toml",
+      "expected": "78f8424112601ad8ff73cec5935ed6ed60243db71c365052da2ccba18657f9f7",
+      "actual": "78f8424112601ad8ff73cec5935ed6ed60243db71c365052da2ccba18657f9f7",
+      "matched": true
+    },
+    {
+      "kind": "original",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/Move.lock",
+      "expected": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44",
+      "actual": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44",
+      "matched": true
+    },
+    {
+      "kind": "snapshot",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/Move.lock",
+      "expected": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44",
+      "actual": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44",
+      "matched": true
+    },
+    {
+      "kind": "original",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/sources/soul.move",
+      "expected": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "actual": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "matched": true
+    },
+    {
+      "kind": "snapshot",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/sources/soul.move",
+      "expected": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "actual": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "matched": true
+    },
+    {
+      "kind": "original",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/foreign.move",
+      "expected": "682c688b8aa9554add1406f196ede1fcf8fa6fbf8c63738763f274d90a2a23c3",
+      "actual": "682c688b8aa9554add1406f196ede1fcf8fa6fbf8c63738763f274d90a2a23c3",
+      "matched": true
+    },
+    {
+      "kind": "snapshot",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/tests/foreign.move",
+      "expected": "682c688b8aa9554add1406f196ede1fcf8fa6fbf8c63738763f274d90a2a23c3",
+      "actual": "682c688b8aa9554add1406f196ede1fcf8fa6fbf8c63738763f274d90a2a23c3",
+      "matched": true
+    },
+    {
+      "kind": "original",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/kernel_tests.move",
+      "expected": "6afb60482519cd9aabd44ea7cf166fde727588de8f46d369d61bd7bace1dc6b1",
+      "actual": "6afb60482519cd9aabd44ea7cf166fde727588de8f46d369d61bd7bace1dc6b1",
+      "matched": true
+    },
+    {
+      "kind": "snapshot",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/tests/kernel_tests.move",
+      "expected": "6afb60482519cd9aabd44ea7cf166fde727588de8f46d369d61bd7bace1dc6b1",
+      "actual": "6afb60482519cd9aabd44ea7cf166fde727588de8f46d369d61bd7bace1dc6b1",
+      "matched": true
+    },
+    {
+      "kind": "original",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/publisher_tests.move",
+      "expected": "ae21ca40d946a410072d9ea18c8bf801ac19a4f2d773b558708c7c6cb4aa0540",
+      "actual": "ae21ca40d946a410072d9ea18c8bf801ac19a4f2d773b558708c7c6cb4aa0540",
+      "matched": true
+    },
+    {
+      "kind": "snapshot",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/tests/publisher_tests.move",
+      "expected": "ae21ca40d946a410072d9ea18c8bf801ac19a4f2d773b558708c7c6cb4aa0540",
+      "actual": "ae21ca40d946a410072d9ea18c8bf801ac19a4f2d773b558708c7c6cb4aa0540",
+      "matched": true
+    },
+    {
+      "kind": "reference",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/AGENTS.md",
+      "expected": "f2f05e9ae1f4929b3aab7186bd047d6dd97722120f798de70bc7668663ef813c",
+      "actual": "f2f05e9ae1f4929b3aab7186bd047d6dd97722120f798de70bc7668663ef813c",
+      "matched": true
+    },
+    {
+      "kind": "reference",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/MODULE.md",
+      "expected": "929968b32d821d1e0233d7450032de33c54cf3352698a5797a42780ac0e1ffde",
+      "actual": "929968b32d821d1e0233d7450032de33c54cf3352698a5797a42780ac0e1ffde",
+      "matched": true
+    },
+    {
+      "kind": "reference",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/COMPATIBILITY.md",
+      "expected": "3d08b54e23ed7e03a1013b80d3ab64a5a7ae7028f14b81020fb4a32c9c0c5d67",
+      "actual": "3d08b54e23ed7e03a1013b80d3ab64a5a7ae7028f14b81020fb4a32c9c0c5d67",
+      "matched": true
+    },
+    {
+      "kind": "reference",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/RUNBOOK.md",
+      "expected": "a7d04fffa16ee692f4f76d415cef9f3d0243827bb8482b752a8adb15902e7602",
+      "actual": "a7d04fffa16ee692f4f76d415cef9f3d0243827bb8482b752a8adb15902e7602",
+      "matched": true
+    },
+    {
+      "kind": "reference",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/module.json",
+      "expected": "c4e96373687595003bb74f64a959f97c8609c2d326de9472159450ff5e7c3d90",
+      "actual": "c4e96373687595003bb74f64a959f97c8609c2d326de9472159450ff5e7c3d90",
+      "matched": true
+    },
+    {
+      "kind": "reference",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity/docs/codex/CURRENT.md",
+      "expected": "2c9cf369d720f5d9319613acf020c2d236c79f3dcbf90057cddc148c39430512",
+      "actual": "2c9cf369d720f5d9319613acf020c2d236c79f3dcbf90057cddc148c39430512",
+      "matched": true
+    },
+    {
+      "kind": "reference",
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/docs/SOUL_STANDARD_KERNEL_CN.md",
+      "expected": "0ff183d80bba49a1cbac97434675b0f2d9ddd6383cfc914d680deaeb7db82223",
+      "actual": "0ff183d80bba49a1cbac97434675b0f2d9ddd6383cfc914d680deaeb7db82223",
+      "matched": true
+    },
+    {
+      "kind": "probe-production-source",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/baseline/sources/soul.move",
+      "expected": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "actual": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "matched": true
+    },
+    {
+      "kind": "probe-production-source",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/adversarial-kernel/sources/soul.move",
+      "expected": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "actual": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "matched": true
+    },
+    {
+      "kind": "probe-production-source",
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/foreign/dependency/sources/soul.move",
+      "expected": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "actual": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "matched": true
+    }
+  ],
+  "all_matched": true,
+  "head": "df4bdffd252da810c278939e3f8678ba3dc77de4",
+  "head_unchanged": true,
+  "git_status_after": "?? evidence/minimal-soul-audit-20261011-r1/\n",
+  "sui_binary_sha256": "59838401ed487fc0c3aeeb1f4a0f47c2d0b3a564d1945d6f2d4c3e79af966354",
+  "sui_binary_unchanged": true
+}

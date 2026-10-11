@@ -1,0 +1,40 @@
+{
+  "scope": "Current unchanged 280-line Soul security and release-readiness recheck; latest user accepts optional shared/composed variants; no source changes or chain actions",
+  "completed_at_utc": "2026-10-11T09:21:26.258216+00:00",
+  "source_sha256": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+  "head": "df4bdffd252da810c278939e3f8678ba3dc77de4",
+  "build_exit": 0,
+  "move_tests": {
+    "unique": 39,
+    "passed": 39,
+    "failed": 0,
+    "new_test_cases": 0
+  },
+  "foreign_probes": {
+    "expected_compile_rejections": 5,
+    "valid_consumer_success": 1,
+    "matched": 6
+  },
+  "confirmed_reproducible_kernel_exploit_found": false,
+  "limits": "Scoped source and local VM/compiler recheck; no absence-of-vulnerabilities proof, chain/PTB execution or current independent release acceptance",
+  "release_readiness": "not established; concrete target/authority/consumer journeys and applicable boundary/independent acceptance checks remain unverified",
+  "report": "REPORT_CN.md",
+  "report_sha256": "a6e9b704f1be63608acedca77d42478efff721625139a03263d69d8639499c96",
+  "checks_sha256": "731d9ecd3c044ad9e1dcaddd3562a5bcb9a37016a0d40f7ae56f0de6f45d862f",
+  "protected_inputs_unchanged": true,
+  "module_json_unchanged": true,
+  "source_or_original_tests_changed": false,
+  "chain_actions": false,
+  "signing_spending": false,
+  "commit_push_pr": false,
+  "logs": {
+    "logs/combined-tests.log": "095344dd5f62d82d57527327822015fa6a8935e1106d8721087a1df91202b397",
+    "logs/foreign-copy_edit_ticket.log": "f1c2749d1b0d08a96de5aea80026421e4a01a6a15e1a7e10727a25a82ff30de3",
+    "logs/foreign-drop_edit_ticket.log": "9bd49b618d0e6c7ffbd0297dda131bbbc5b1aee0bec06882652dde76be296201",
+    "logs/foreign-forge_nested_witness.log": "dabaee9346048817dd4cc8e2a01c8da470ea1f7b1ff021b8b658af9ff541924c",
+    "logs/foreign-mutable_root_uid.log": "8af7fdb4e0eed6d9c62953ec7e2ef376b0a896300700b12976937580ef4d81a5",
+    "logs/foreign-store_edit_ticket.log": "1609d22003fe101dd89e62e25da17b4efed6642d62ac64f52b3c522ae99a30a7",
+    "logs/foreign-valid_read_consumer.log": "1925aa5feaed9c2556ea9de644e591b62c32b91e8c2f25d0190a3a1c800ff787",
+    "logs/production-build.log": "d3a337e1fe2aa6b67ec5c40c841b4189ea48288a8a3e09e3b063c9214fe7e90e"
+  }
+}

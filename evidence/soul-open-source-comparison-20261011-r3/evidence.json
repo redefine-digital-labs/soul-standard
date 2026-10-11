@@ -1,0 +1,167 @@
+{
+  "stage": "Comparative review and isolated local Build/Test completed; Release/Deploy not approved or executed",
+  "completed_at_utc": "2026-10-11T09:36:08.795516+00:00",
+  "source_sha256": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+  "source_unchanged": true,
+  "production_changes": false,
+  "build_exit_code": 0,
+  "test_exit_code": 0,
+  "unique_tests_passed": 46,
+  "new_comparison_tests": 7,
+  "prior_tests_rerun": 39,
+  "local_vm_only": true,
+  "mock_payment_and_test_only_policy_constructor": true,
+  "upstream_protocol_runtime_audit": false,
+  "qualified_independent_acceptance": false,
+  "original_record_ref": null,
+  "original_owner_preserved": true,
+  "handbook_applicability": [
+    "Sui ownership and abilities",
+    "composition and PTB boundaries",
+    "versions and upgrades",
+    "scope of completion evidence"
+  ],
+  "remaining_exit_criteria": [
+    "Actual candidate and production/consumer targets",
+    "Applicable real PTB, capacity/depth/Gas and version combinations",
+    "Effective Publisher/UpgradeCap controls",
+    "Qualified independent acceptance of the same candidate"
+  ],
+  "artifacts": [
+    {
+      "path": "REPORT_CN.md",
+      "sha256": "21161e77eda72af0ebaf20c8685cc9f1877355882add295f0d7c2e6ef449df48",
+      "bytes": 14784
+    },
+    {
+      "path": "checks.json",
+      "sha256": "1120733ff55de81489b70eb2b4b96693dcfdaa909cd8923c85e257c267376dd4",
+      "bytes": 842
+    },
+    {
+      "path": "inputs.json",
+      "sha256": "08a7f22e39fed93587649129f3238fbca9702d69939ab3e8fe861cd03c1cd493",
+      "bytes": 1280
+    },
+    {
+      "path": "integrity.json",
+      "sha256": "82ef4068bec8c793f9db37b12c902a8ab3f70491c2ae6a866282f867de5267aa",
+      "bytes": 4746
+    },
+    {
+      "path": "logs/build.log",
+      "sha256": "d3a337e1fe2aa6b67ec5c40c841b4189ea48288a8a3e09e3b063c9214fe7e90e",
+      "bytes": 340
+    },
+    {
+      "path": "logs/tests.log",
+      "sha256": "94fd8a19a5121d37fdf20017ddba27157bc3eb1fc1039f39b6f74041636804d9",
+      "bytes": 5491
+    },
+    {
+      "path": "package/Move.lock",
+      "sha256": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44",
+      "bytes": 936
+    },
+    {
+      "path": "package/Move.toml",
+      "sha256": "78f8424112601ad8ff73cec5935ed6ed60243db71c365052da2ccba18657f9f7",
+      "bytes": 289
+    },
+    {
+      "path": "package/sources/soul.move",
+      "sha256": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "bytes": 11430
+    },
+    {
+      "path": "package/tests/audit_adversarial.move",
+      "sha256": "d5998881699a9ed1587b7aa9479920d5cfe5e2fcfb66cc7fc03bbc3afc1098f6",
+      "bytes": 10347
+    },
+    {
+      "path": "package/tests/audit_boundaries.move",
+      "sha256": "33cfd44153ba17846ae97fa08e480cdf760e4eae0630ad26f66fdb5216f6ff2d",
+      "bytes": 3498
+    },
+    {
+      "path": "package/tests/comparison_integration.move",
+      "sha256": "f8fb4ffebdb716671ceae3d11579375928c7935488df3cf0e953b2eb51f9238d",
+      "bytes": 7652
+    },
+    {
+      "path": "package/tests/foreign.move",
+      "sha256": "682c688b8aa9554add1406f196ede1fcf8fa6fbf8c63738763f274d90a2a23c3",
+      "bytes": 174
+    },
+    {
+      "path": "package/tests/kernel_tests.move",
+      "sha256": "6afb60482519cd9aabd44ea7cf166fde727588de8f46d369d61bd7bace1dc6b1",
+      "bytes": 14046
+    },
+    {
+      "path": "package/tests/publisher_tests.move",
+      "sha256": "ae21ca40d946a410072d9ea18c8bf801ac19a4f2d773b558708c7c6cb4aa0540",
+      "bytes": 1079
+    },
+    {
+      "path": "upstream/originbyte/access_policy.move",
+      "sha256": "732a9de50f8873f9ba72ebaa2cfbf47404e32b385c91cc00ad932b09472875e3",
+      "bytes": 10133
+    },
+    {
+      "path": "upstream/originbyte/composable_nft.move",
+      "sha256": "37a403776eb7543ee4d47f5c04f04851f024f2d861af55a182c30994dda53478",
+      "bytes": 15101
+    },
+    {
+      "path": "upstream/originbyte/nft.move",
+      "sha256": "012cca10172a2710bf44c26654005fcd0132691a05bb315bb81357299453b720",
+      "bytes": 8095
+    },
+    {
+      "path": "upstream/originbyte/nft_bag.move",
+      "sha256": "cc02aedd4dc7f7f6a686e160650fb0d567e4f15c829985c16819058bdc9f2999",
+      "bytes": 12489
+    },
+    {
+      "path": "upstream/originbyte/witness.move",
+      "sha256": "5d82529eb905107394d737ac99146d925dc9c5b30ce89cc1dc9e1b4b93359563",
+      "bytes": 2800
+    },
+    {
+      "path": "upstream/sui/coin.move",
+      "sha256": "89a6acba362f52eb210d2c3b48144415aeb6589913c002dbedda3ad67ba0bcbb",
+      "bytes": 23779
+    },
+    {
+      "path": "upstream/sui/dynamic_object_field.move",
+      "sha256": "aac0f317aac47de5fa7c1143586182ecf4282736f30e9a68a1d3bf4653ef869a",
+      "bytes": 11311
+    },
+    {
+      "path": "upstream/sui/kiosk.move",
+      "sha256": "894551834729eff904a0e9075aa0bf77481919c2352870b4de4d8b831350db85",
+      "bytes": 24024
+    },
+    {
+      "path": "upstream/sui/testnet_nft.move",
+      "sha256": "fba0159be403ec9c76eeeb5d192621c0a7bf5af5f7276b0154509f7b3653ea2d",
+      "bytes": 2190
+    },
+    {
+      "path": "upstream/sui/token.move",
+      "sha256": "d28a9996208f0a6369ce40d6dbfd023d1e4944e0a863b33398136ab218027293",
+      "bytes": 24607
+    },
+    {
+      "path": "upstream/sui/transfer_policy.move",
+      "sha256": "b042d85ecf88f11b504f87bff1e2625bb9fce24c159ee43f1c273f9061066b33",
+      "bytes": 11627
+    },
+    {
+      "path": "upstream_sources.json",
+      "sha256": "8160af2ad4a38c5a14cc65d400e4168fb1527b137487d1744a777617ad4c5c1d",
+      "bytes": 7595
+    }
+  ]
+}

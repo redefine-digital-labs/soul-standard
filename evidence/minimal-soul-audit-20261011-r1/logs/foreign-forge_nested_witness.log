@@ -1,0 +1,16 @@
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY Sui
+BUILDING AuditForgeNestedWitness
+[0m[1m[38;5;9merror[EC04001][0m[1m: restricted visibility[0m
+   [0m[34m┌─[0m ./sources/probe.move:3:41
+   [0m[34m│[0m
+[0m[34m 3[0m [0m[34m│[0m public fun forge(): NestedSoulWitness { [0m[31mNestedSoulWitness {}[0m }
+   [0m[34m│[0m                                         [0m[31m^^^^^^^^^^^^^^^^^^^^[0m [0m[31mStruct 'soulidity_standard::soul::NestedSoulWitness' can only be instantiated within its defining module 'soulidity_standard::soul'[0m
+   [0m[34m│[0m
+   [0m[34m┌─[0m ../dependency/sources/soul.move:68:15
+   [0m[34m│[0m
+[0m[34m68[0m [0m[34m│[0m public struct NestedSoulWitness has drop {}
+   [0m[34m│[0m               [0m[34m-----------------[0m [0m[34mStruct defined in module 'soulidity_standard::soul'[0m
+
+Failed to build Move modules: Compilation error.

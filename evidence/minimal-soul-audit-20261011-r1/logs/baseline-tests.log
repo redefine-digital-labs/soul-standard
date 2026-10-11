@@ -1,0 +1,32 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY Sui
+BUILDING SoulidityStandard
+Running Move unit tests
+[ PASS    ] soulidity_standard::publisher_tests::standard_init_creates_package_publisher_and_real_policy_constructor
+[ PASS    ] soulidity_standard::kernel_tests::duplicate_namespace_and_name_rejected
+[ PASS    ] soulidity_standard::publisher_tests::unrelated_package_publisher_cannot_create_standard_policy
+[ PASS    ] soulidity_standard::kernel_tests::edit_cannot_commit_to_another_soul
+[ PASS    ] soulidity_standard::kernel_tests::edit_cannot_replace_original_object_with_new_id
+[ PASS    ] soulidity_standard::kernel_tests::edits_block_other_root_mutations
+[ PASS    ] soulidity_standard::kernel_tests::install_update_and_exit_keep_object_identity_and_commitment
+[ PASS    ] soulidity_standard::kernel_tests::manifest_cannot_certify_temporarily_absent_child
+[ PASS    ] soulidity_standard::kernel_tests::nested_evolution_updates_parent_commitment_without_minting_another_identity
+[ PASS    ] soulidity_standard::kernel_tests::nested_souls_keep_distinct_identity_origin_and_original_id_exit
+[ PASS    ] soulidity_standard::kernel_tests::nested_update_cannot_restore_into_another_parent
+[ PASS    ] soulidity_standard::kernel_tests::nested_update_cannot_substitute_new_soul_for_original_child
+[ PASS    ] soulidity_standard::kernel_tests::paging_cannot_use_overflowing_or_unbounded_range
+[ PASS    ] soulidity_standard::kernel_tests::permanent_child_cannot_be_withdrawn
+[ PASS    ] soulidity_standard::kernel_tests::permanent_module_updates_without_becoming_removable
+[ PASS    ] soulidity_standard::kernel_tests::primitive_cannot_attest_production
+[ PASS    ] soulidity_standard::kernel_tests::producer_cannot_claim_another_module_source
+[ PASS    ] soulidity_standard::kernel_tests::provenance_is_real_object_and_actual_producer_type
+[ PASS    ] soulidity_standard::kernel_tests::same_label_in_distinct_typed_namespaces_is_isolated
+[ PASS    ] soulidity_standard::kernel_tests::schema_cannot_regress
+[ PASS    ] soulidity_standard::kernel_tests::stale_revision_rejected
+[ PASS    ] soulidity_standard::kernel_tests::three_levels_transfer_together_and_exit_in_original_order
+[ PASS    ] soulidity_standard::kernel_tests::transfer_whole_root_keeps_child_and_source_for_buyer
+[ PASS    ] soulidity_standard::kernel_tests::witness_cannot_install_another_module_value
+[ PASS    ] soulidity_standard::kernel_tests::wrong_namespace_rejected
+[ PASS    ] soulidity_standard::kernel_tests::wrong_value_type_rejected
+Test result: OK. Total tests: 26; passed: 26; failed: 0

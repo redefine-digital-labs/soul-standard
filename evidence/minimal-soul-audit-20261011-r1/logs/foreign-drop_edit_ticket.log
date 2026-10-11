@@ -1,0 +1,18 @@
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY Sui
+BUILDING AuditDropEditTicket
+[0m[1m[38;5;9merror[EC05001][0m[1m: ability constraint not satisfied[0m
+   [0m[34m┌─[0m ./sources/probe.move:3:54
+   [0m[34m│[0m
+[0m[34m 3[0m [0m[34m│[0m public fun discard(ticket: Edit<Origin, Soul>) { let [0m[31m_[0m = ticket; }
+   [0m[34m│[0m                            [0m[34m------------------[0m        [0m[31m^[0m [0m[31mCannot ignore values without the 'drop' ability. The value must be used[0m
+   [0m[34m│[0m                            [0m[34m│[0m                          
+   [0m[34m│[0m                            [0m[34mThe type 'soulidity_standard::soul::Edit<soulidity_standard::soul::Origin, soulidity_standard::soul::Soul>' does not have the ability 'drop'[0m
+   [0m[34m│[0m
+   [0m[34m┌─[0m ../dependency/sources/soul.move:72:15
+   [0m[34m│[0m
+[0m[34m72[0m [0m[34m│[0m public struct Edit<phantom W, phantom T> {
+   [0m[34m│[0m               [0m[34m----[0m [0m[34mTo satisfy the constraint, the 'drop' ability would need to be added here[0m
+
+Failed to build Move modules: Compilation error.

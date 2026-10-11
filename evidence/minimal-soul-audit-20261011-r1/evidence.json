@@ -1,0 +1,43 @@
+{
+  "scope": "Completed pinned-source audit deliverable; no release acceptance",
+  "head": "df4bdffd252da810c278939e3f8678ba3dc77de4",
+  "source_sha256": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+  "build_exit_code": 0,
+  "move_tests": {
+    "unique": 39,
+    "passed": 39,
+    "failed": 0,
+    "original": 26,
+    "added_scenarios": 10,
+    "added_boundaries": 3
+  },
+  "foreign_compiler_probes": {
+    "expected_rejections": 5,
+    "valid_consumer_success": 1,
+    "matched_expectations": 6
+  },
+  "findings": [
+    {
+      "id": "A-01",
+      "classification": "Conditional high impact for directly shared newly created roots; no private-root ownership bypass established"
+    },
+    {
+      "id": "A-02",
+      "classification": "Confirmed noncanonical permanent Soul composition; defect classification depends on exit contract"
+    },
+    {
+      "id": "A-03",
+      "classification": "Confirmed installation-lifecycle schema reset; defect classification depends on lifetime monotonicity contract"
+    }
+  ],
+  "final_verification": "reviews/final_verification.json",
+  "report": "FINAL_AUDIT_CN.md",
+  "handoff": "HANDOFF_CN.md",
+  "production_source_changed": false,
+  "chain_actions": false,
+  "commit_push_or_pr": false,
+  "original_current_pointer_unchanged": true,
+  "report_sha256": "081e8d08ffe760979c54a1db177a00b4130a0cbd7092e9a661d3954fd7e33439",
+  "handoff_sha256": "9d08e1d3b647f66a7e91a1f783a285f15282d28fb393e1efe51970f33f2f0a34",
+  "completed_at_utc": "2026-10-11T07:57:13.065814+00:00"
+}

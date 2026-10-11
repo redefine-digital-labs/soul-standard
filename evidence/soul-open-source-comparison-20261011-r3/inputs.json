@@ -1,0 +1,14 @@
+{
+  "scope": "Read-only comparative security/suitability review of unchanged Soul kernel against pinned official Coin, NFT, Kiosk, Token, TransferPolicy and OriginByte source",
+  "created_at_utc": "2026-10-11T09:25:00.630438+00:00",
+  "soul_source": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/sources/soul.move",
+  "soul_sha256": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+  "head": "df4bdffd252da810c278939e3f8678ba3dc77de4",
+  "official_reference_revision": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+  "third_party_reference_revision": "e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab",
+  "third_party_repository_resolution": "Origin-Byte/nft-protocol redirects to Origin-Byte/protocol; default branch main; API archived=false; observed pushed_at 2024-04-19T10:03:34Z, selected commit date 2024-03-13T22:56:58Z; historical source comparison, not a compatibility or security endorsement",
+  "prior_test_evidence": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-release-recheck-20261011-r2/evidence.json",
+  "production_changes": false,
+  "chain_actions": false,
+  "module_json_sha256": "c4e96373687595003bb74f64a959f97c8609c2d326de9472159450ff5e7c3d90"
+}

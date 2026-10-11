@@ -1,0 +1,12 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY Sui
+BUILDING SoulidityStandard
+error[EC07002]: mutable borrow rule violated
+   ┌─ ./tests/audit_adversarial.move:29:85
+   │
+29 │     soul::install(root, Witness {}, b"module", v, 1, removable, h(), soul::revision(root));
+   │                   ----                                                              ^^^^ Invalid freeze.
+   │                   │                                                                  
+   │                   It is still being mutably borrowed by this reference
+

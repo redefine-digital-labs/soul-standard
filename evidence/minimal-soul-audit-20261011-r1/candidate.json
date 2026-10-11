@@ -1,0 +1,77 @@
+{
+  "scope": "Minimal Soul standard source audit; no implementation changes",
+  "created_at": "2026-10-11T10:35:59.816957+03:00",
+  "root": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard",
+  "head": "df4bdffd252da810c278939e3f8678ba3dc77de4",
+  "git_status_before": "?? evidence/minimal-soul-audit-20261011-r1/\n",
+  "sui_version": "sui 1.78.1-homebrew",
+  "sui_binary_sha256": "59838401ed487fc0c3aeeb1f4a0f47c2d0b3a564d1945d6f2d4c3e79af966354",
+  "inputs": [
+    {
+      "original": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/Move.toml",
+      "snapshot": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/Move.toml",
+      "sha256": "78f8424112601ad8ff73cec5935ed6ed60243db71c365052da2ccba18657f9f7",
+      "bytes": 289
+    },
+    {
+      "original": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/Move.lock",
+      "snapshot": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/Move.lock",
+      "sha256": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44",
+      "bytes": 936
+    },
+    {
+      "original": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/sources/soul.move",
+      "snapshot": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/sources/soul.move",
+      "sha256": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "bytes": 11430
+    },
+    {
+      "original": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/foreign.move",
+      "snapshot": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/tests/foreign.move",
+      "sha256": "682c688b8aa9554add1406f196ede1fcf8fa6fbf8c63738763f274d90a2a23c3",
+      "bytes": 174
+    },
+    {
+      "original": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/kernel_tests.move",
+      "snapshot": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/tests/kernel_tests.move",
+      "sha256": "6afb60482519cd9aabd44ea7cf166fde727588de8f46d369d61bd7bace1dc6b1",
+      "bytes": 14046
+    },
+    {
+      "original": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard/tests/publisher_tests.move",
+      "snapshot": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/tests/publisher_tests.move",
+      "sha256": "ae21ca40d946a410072d9ea18c8bf801ac19a4f2d773b558708c7c6cb4aa0540",
+      "bytes": 1079
+    }
+  ],
+  "reference_guards": [
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/AGENTS.md",
+      "sha256": "f2f05e9ae1f4929b3aab7186bd047d6dd97722120f798de70bc7668663ef813c"
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/MODULE.md",
+      "sha256": "929968b32d821d1e0233d7450032de33c54cf3352698a5797a42780ac0e1ffde"
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/COMPATIBILITY.md",
+      "sha256": "3d08b54e23ed7e03a1013b80d3ab64a5a7ae7028f14b81020fb4a32c9c0c5d67"
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/RUNBOOK.md",
+      "sha256": "a7d04fffa16ee692f4f76d415cef9f3d0243827bb8482b752a8adb15902e7602"
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/module.json",
+      "sha256": "c4e96373687595003bb74f64a959f97c8609c2d326de9472159450ff5e7c3d90"
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity/docs/codex/CURRENT.md",
+      "sha256": "2c9cf369d720f5d9319613acf020c2d236c79f3dcbf90057cddc148c39430512"
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/docs/SOUL_STANDARD_KERNEL_CN.md",
+      "sha256": "0ff183d80bba49a1cbac97434675b0f2d9ddd6383cfc914d680deaeb7db82223"
+    }
+  ]
+}

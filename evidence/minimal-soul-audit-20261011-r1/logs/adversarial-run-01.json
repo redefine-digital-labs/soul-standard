@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/opt/homebrew/bin/sui",
+    "move",
+    "test",
+    "--path",
+    "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/adversarial-kernel",
+    "audit_adversarial",
+    "--statistics"
+  ],
+  "cwd": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/adversarial-kernel",
+  "exit_code": 1,
+  "elapsed_seconds": 8.043766021728516,
+  "stdout_stderr_file": "logs/adversarial-run-01.log",
+  "gas_limit_override": null,
+  "test_sha256": "ba8e58ff2de1284c4aaca6633f025db2ddc8740988c21aa2c0a9a725d9cfd6cf"
+}

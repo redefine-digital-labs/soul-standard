@@ -1,0 +1,26 @@
+{
+  "command": [
+    "/opt/homebrew/bin/sui",
+    "move",
+    "test",
+    "--path",
+    "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/adversarial-kernel",
+    "-e",
+    "mainnet"
+  ],
+  "start_utc": "2026-10-11T07:51:20.532692+00:00",
+  "exit_code": 0,
+  "elapsed_seconds": 7.3934714999999995,
+  "log": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/logs/combined-tests.log",
+  "gas_limit_override": null,
+  "fixtures": {
+    "probes/adversarial-kernel/tests/audit_adversarial.move": "d5998881699a9ed1587b7aa9479920d5cfe5e2fcfb66cc7fc03bbc3afc1098f6",
+    "probes/adversarial-kernel/tests/audit_boundaries.move": "33cfd44153ba17846ae97fa08e480cdf760e4eae0630ad26f66fdb5216f6ff2d"
+  },
+  "production_source_sha256": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+  "pass_rows": 39,
+  "fail_rows": 0,
+  "summary": [
+    "Test result: OK. Total tests: 39; passed: 39; failed: 0"
+  ]
+}

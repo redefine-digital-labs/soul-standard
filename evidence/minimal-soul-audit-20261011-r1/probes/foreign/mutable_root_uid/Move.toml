@@ -1,0 +1,9 @@
+[package]
+name = "AuditMutableRootUid"
+edition = "2024"
+
+[dependencies]
+SoulidityStandard = { local = "../dependency" }
+
+[addresses]
+audit_consumer = "0x0"

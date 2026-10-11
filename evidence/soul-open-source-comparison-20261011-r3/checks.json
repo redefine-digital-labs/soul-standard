@@ -1,0 +1,36 @@
+[
+  {
+    "name": "build",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/soul-open-source-comparison-20261011-r3/package",
+      "-e",
+      "mainnet"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 2.812,
+    "pass_rows": 0,
+    "summary": []
+  },
+  {
+    "name": "tests",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "test",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/soul-open-source-comparison-20261011-r3/package",
+      "-e",
+      "mainnet"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 7.564,
+    "pass_rows": 46,
+    "summary": [
+      "Test result: OK. Total tests: 46; passed: 46; failed: 0"
+    ]
+  }
+]

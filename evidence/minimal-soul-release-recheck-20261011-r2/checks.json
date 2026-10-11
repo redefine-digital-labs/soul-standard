@@ -1,0 +1,206 @@
+[
+  {
+    "name": "production-build",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-release-recheck-20261011-r2/package",
+      "-e",
+      "mainnet"
+    ],
+    "started_at_utc": "2026-10-11T09:18:00.731659+00:00",
+    "elapsed_seconds": 4.275,
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "diagnostic_codes": [],
+    "expected_diagnostic": null,
+    "matched_expectation": true,
+    "summary": [],
+    "pass_rows": 0,
+    "fail_rows": 0,
+    "gas_limit_override": null,
+    "unique_pass_names": 0
+  },
+  {
+    "name": "combined-tests",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "test",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-release-recheck-20261011-r2/package",
+      "-e",
+      "mainnet"
+    ],
+    "started_at_utc": "2026-10-11T09:18:05.006874+00:00",
+    "elapsed_seconds": 7.466,
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "diagnostic_codes": [],
+    "expected_diagnostic": null,
+    "matched_expectation": true,
+    "summary": [
+      "Test result: OK. Total tests: 39; passed: 39; failed: 0"
+    ],
+    "pass_rows": 39,
+    "fail_rows": 0,
+    "gas_limit_override": null,
+    "unique_pass_names": 39
+  },
+  {
+    "name": "foreign-mutable_root_uid",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-release-recheck-20261011-r2/foreign/mutable_root_uid",
+      "-e",
+      "mainnet"
+    ],
+    "started_at_utc": "2026-10-11T09:18:12.473490+00:00",
+    "elapsed_seconds": 2.563,
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "diagnostic_codes": [
+      "EC04001"
+    ],
+    "expected_diagnostic": "EC04001",
+    "matched_expectation": true,
+    "summary": [],
+    "pass_rows": 0,
+    "fail_rows": 0,
+    "gas_limit_override": null,
+    "unique_pass_names": 0
+  },
+  {
+    "name": "foreign-forge_nested_witness",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-release-recheck-20261011-r2/foreign/forge_nested_witness",
+      "-e",
+      "mainnet"
+    ],
+    "started_at_utc": "2026-10-11T09:18:15.036390+00:00",
+    "elapsed_seconds": 4.693,
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "diagnostic_codes": [
+      "EC04001"
+    ],
+    "expected_diagnostic": "EC04001",
+    "matched_expectation": true,
+    "summary": [],
+    "pass_rows": 0,
+    "fail_rows": 0,
+    "gas_limit_override": null,
+    "unique_pass_names": 0
+  },
+  {
+    "name": "foreign-copy_edit_ticket",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-release-recheck-20261011-r2/foreign/copy_edit_ticket",
+      "-e",
+      "mainnet"
+    ],
+    "started_at_utc": "2026-10-11T09:18:19.729777+00:00",
+    "elapsed_seconds": 5.191,
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "diagnostic_codes": [
+      "EC05001"
+    ],
+    "expected_diagnostic": "EC05001",
+    "matched_expectation": true,
+    "summary": [],
+    "pass_rows": 0,
+    "fail_rows": 0,
+    "gas_limit_override": null,
+    "unique_pass_names": 0
+  },
+  {
+    "name": "foreign-drop_edit_ticket",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-release-recheck-20261011-r2/foreign/drop_edit_ticket",
+      "-e",
+      "mainnet"
+    ],
+    "started_at_utc": "2026-10-11T09:18:24.920863+00:00",
+    "elapsed_seconds": 5.384,
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "diagnostic_codes": [
+      "EC05001"
+    ],
+    "expected_diagnostic": "EC05001",
+    "matched_expectation": true,
+    "summary": [],
+    "pass_rows": 0,
+    "fail_rows": 0,
+    "gas_limit_override": null,
+    "unique_pass_names": 0
+  },
+  {
+    "name": "foreign-store_edit_ticket",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-release-recheck-20261011-r2/foreign/store_edit_ticket",
+      "-e",
+      "mainnet"
+    ],
+    "started_at_utc": "2026-10-11T09:18:30.304630+00:00",
+    "elapsed_seconds": 5.019,
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "diagnostic_codes": [
+      "EC05001"
+    ],
+    "expected_diagnostic": "EC05001",
+    "matched_expectation": true,
+    "summary": [],
+    "pass_rows": 0,
+    "fail_rows": 0,
+    "gas_limit_override": null,
+    "unique_pass_names": 0
+  },
+  {
+    "name": "foreign-valid_read_consumer",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-release-recheck-20261011-r2/foreign/valid_read_consumer",
+      "-e",
+      "mainnet"
+    ],
+    "started_at_utc": "2026-10-11T09:18:35.324316+00:00",
+    "elapsed_seconds": 5.439,
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "diagnostic_codes": [],
+    "expected_diagnostic": null,
+    "matched_expectation": true,
+    "summary": [],
+    "pass_rows": 0,
+    "fail_rows": 0,
+    "gas_limit_override": null,
+    "unique_pass_names": 0
+  }
+]

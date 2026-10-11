@@ -1,0 +1,10 @@
+{
+  "source": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/ecosystem-devops/tools/move-validation/verify_move_packages.py",
+  "sha256": "cabf2ce563b65db3f91295209eefda08d8947dfc1119fc5db286ae50c8e344e1",
+  "consumer": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/scripts/verify_move_packages.py",
+  "source_authority": "ecosystem-devops; installed pinned copy, no automatic upstream adoption",
+  "previous_sha256": "1c88e71044c3b1d655b303d9e3bba374ca94e69e84b17bf51d28bab3c54e34cb",
+  "change": "Exclude Move.lock only; compare complete input maps so added/removed .move files fail",
+  "prior_vm_evidence": "output/move-check-vm1kf2gf/evidence.json",
+  "complete_map_check_on_existing_evidence": true
+}

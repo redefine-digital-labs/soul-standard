@@ -1,0 +1,142 @@
+{
+  "review": "contract_review",
+  "candidate_sha256": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+  "review_kind": "independent_read_only_source_and_architecture",
+  "confirmed_unprivileged_security_exploits": [],
+  "findings": [
+    {
+      "id": "CR-01",
+      "kind": "verified_source_behavior_contract_ambiguity",
+      "priority": "P2_if_lifetime_monotonicity_is_promised",
+      "status": "decision_required",
+      "source_lines": [
+        159,
+        164,
+        170,
+        181,
+        187,
+        211
+      ],
+      "summary": "Removable descriptors lose their schema floor on uninstall and may reinstall the same object at a lower schema."
+    },
+    {
+      "id": "CR-02",
+      "kind": "upgrade_consumer_obligation",
+      "priority": "P2_release_gate_if_current_writer_rejection_required",
+      "status": "not_established",
+      "source_lines": [
+        89,
+        101,
+        111,
+        124,
+        168,
+        193,
+        205,
+        211
+      ],
+      "summary": "Type origins and CAS do not identify current executing code or revoke old writers."
+    },
+    {
+      "id": "CR-03",
+      "kind": "release_declaration_gap",
+      "priority": "P2_release_readiness",
+      "status": "pending",
+      "module_json_lines": [
+        652,
+        657,
+        666,
+        675,
+        684,
+        731,
+        857,
+        913,
+        914,
+        957
+      ],
+      "summary": "Exact consumer contracts, release/target identity, Publisher and effective UpgradeCap paths are not pinned."
+    }
+  ],
+  "tests_run": [],
+  "proposed_tests_status": "not_run",
+  "frozen_and_reference_guards": [
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/Move.toml",
+      "expected": "78f8424112601ad8ff73cec5935ed6ed60243db71c365052da2ccba18657f9f7",
+      "actual": "78f8424112601ad8ff73cec5935ed6ed60243db71c365052da2ccba18657f9f7",
+      "match": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/Move.lock",
+      "expected": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44",
+      "actual": "fd95117eab9a3451f37f5db8a826bf76d16414d8c149cc203e096efe1edbdc44",
+      "match": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/sources/soul.move",
+      "expected": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "actual": "0574d86b7d40dd42e22774b3bd68d9f5e7705fda2cf805cfe58a31d3e777c2c7",
+      "match": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/tests/foreign.move",
+      "expected": "682c688b8aa9554add1406f196ede1fcf8fa6fbf8c63738763f274d90a2a23c3",
+      "actual": "682c688b8aa9554add1406f196ede1fcf8fa6fbf8c63738763f274d90a2a23c3",
+      "match": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/tests/kernel_tests.move",
+      "expected": "6afb60482519cd9aabd44ea7cf166fde727588de8f46d369d61bd7bace1dc6b1",
+      "actual": "6afb60482519cd9aabd44ea7cf166fde727588de8f46d369d61bd7bace1dc6b1",
+      "match": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/frozen-package/tests/publisher_tests.move",
+      "expected": "ae21ca40d946a410072d9ea18c8bf801ac19a4f2d773b558708c7c6cb4aa0540",
+      "actual": "ae21ca40d946a410072d9ea18c8bf801ac19a4f2d773b558708c7c6cb4aa0540",
+      "match": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/AGENTS.md",
+      "expected": "f2f05e9ae1f4929b3aab7186bd047d6dd97722120f798de70bc7668663ef813c",
+      "actual": "f2f05e9ae1f4929b3aab7186bd047d6dd97722120f798de70bc7668663ef813c",
+      "match": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/MODULE.md",
+      "expected": "929968b32d821d1e0233d7450032de33c54cf3352698a5797a42780ac0e1ffde",
+      "actual": "929968b32d821d1e0233d7450032de33c54cf3352698a5797a42780ac0e1ffde",
+      "match": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/COMPATIBILITY.md",
+      "expected": "3d08b54e23ed7e03a1013b80d3ab64a5a7ae7028f14b81020fb4a32c9c0c5d67",
+      "actual": "3d08b54e23ed7e03a1013b80d3ab64a5a7ae7028f14b81020fb4a32c9c0c5d67",
+      "match": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/RUNBOOK.md",
+      "expected": "a7d04fffa16ee692f4f76d415cef9f3d0243827bb8482b752a8adb15902e7602",
+      "actual": "a7d04fffa16ee692f4f76d415cef9f3d0243827bb8482b752a8adb15902e7602",
+      "match": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/module.json",
+      "expected": "c4e96373687595003bb74f64a959f97c8609c2d326de9472159450ff5e7c3d90",
+      "actual": "c4e96373687595003bb74f64a959f97c8609c2d326de9472159450ff5e7c3d90",
+      "match": true
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity/docs/codex/CURRENT.md",
+      "expected": "2c9cf369d720f5d9319613acf020c2d236c79f3dcbf90057cddc148c39430512",
+      "actual": "2c9cf369d720f5d9319613acf020c2d236c79f3dcbf90057cddc148c39430512",
+      "match": true
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/docs/SOUL_STANDARD_KERNEL_CN.md",
+      "expected": "0ff183d80bba49a1cbac97434675b0f2d9ddd6383cfc914d680deaeb7db82223",
+      "actual": "0ff183d80bba49a1cbac97434675b0f2d9ddd6383cfc914d680deaeb7db82223",
+      "match": true
+    }
+  ],
+  "source_change_performed": false
+}

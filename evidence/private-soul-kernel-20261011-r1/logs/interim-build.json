@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+    "move",
+    "build",
+    "--path",
+    "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard",
+    "-e",
+    "mainnet",
+    "--install-dir",
+    "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/private-soul-kernel-20261011-r1/interim/interim-build"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 4.775490124999999,
+  "log": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/private-soul-kernel-20261011-r1/logs/interim-build.log",
+  "gas_limit_override": null,
+  "summary": []
+}

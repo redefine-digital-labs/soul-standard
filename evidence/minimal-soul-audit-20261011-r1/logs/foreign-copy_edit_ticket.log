@@ -1,0 +1,18 @@
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY Sui
+BUILDING AuditCopyEditTicket
+[0m[1m[38;5;9merror[EC05001][0m[1m: ability constraint not satisfied[0m
+   [0m[34m┌─[0m ./sources/probe.move:3:106
+   [0m[34m│[0m
+[0m[34m 3[0m [0m[34m│[0m public fun duplicate(ticket: Edit<Origin, Soul>): (Edit<Origin, Soul>, Edit<Origin, Soul>) { let other = [0m[31mcopy ticket[0m; (ticket, other) }
+   [0m[34m│[0m                              [0m[34m------------------[0m                                                          [0m[31m^^^^^^^^^^^[0m [0m[31mInvalid 'copy' of owned value without the 'copy' ability[0m
+   [0m[34m│[0m                              [0m[34m│[0m                                                                            
+   [0m[34m│[0m                              [0m[34mThe type 'soulidity_standard::soul::Edit<soulidity_standard::soul::Origin, soulidity_standard::soul::Soul>' does not have the ability 'copy'[0m
+   [0m[34m│[0m
+   [0m[34m┌─[0m ../dependency/sources/soul.move:72:15
+   [0m[34m│[0m
+[0m[34m72[0m [0m[34m│[0m public struct Edit<phantom W, phantom T> {
+   [0m[34m│[0m               [0m[34m----[0m [0m[34mTo satisfy the constraint, the 'copy' ability would need to be added here[0m
+
+Failed to build Move modules: Compilation error.

@@ -1,0 +1,19 @@
+{
+  "role": "Independent read-only final verifier",
+  "method": "Source/log/receipt/hash review; no test rerun or file changes by verifier",
+  "outcome": "acceptable; no mandatory corrections",
+  "confirmed": [
+    "39 unique PASS, 0 FAIL: 24 kernel + 2 Publisher + 10 adversarial + 3 boundaries",
+    "Combined production build receipt exit 0",
+    "Origin noncanonical permanent Soul install/edit, EPermanent=8 direct exit rejection and same-object schema 2-to-1 reinstallation match code",
+    "22/22 integrity checks, two added fixture hashes, six foreign source hashes, current HEAD and CLI match",
+    "Report distinguishes shared/private authority and rejects expanded lifetime/hash/upgrade claims"
+  ],
+  "not_verified": [
+    "Real chain/PTB",
+    "Actual UpgradeCap/Publisher",
+    "Actual consumer version combinations",
+    "Production release acceptance"
+  ],
+  "recorded_at_utc": "2026-10-11T07:57:13.063380+00:00"
+}

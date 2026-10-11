@@ -1,0 +1,104 @@
+[
+  {
+    "name": "mutable_root_uid",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/foreign/mutable_root_uid",
+      "-e",
+      "mainnet"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 2.736859042,
+    "first_error": null,
+    "log": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/logs/foreign-mutable_root_uid.log",
+    "source_sha256": "ad425b5581fe84454ec2216b078e828de7994612db7ebc778345b39c068cd3d5"
+  },
+  {
+    "name": "forge_nested_witness",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/foreign/forge_nested_witness",
+      "-e",
+      "mainnet"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 4.9610835,
+    "first_error": null,
+    "log": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/logs/foreign-forge_nested_witness.log",
+    "source_sha256": "19d365b6d1c5d420ff3e26f8810a755a82f18f7472c6908e3847fc6d6efc10b9"
+  },
+  {
+    "name": "copy_edit_ticket",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/foreign/copy_edit_ticket",
+      "-e",
+      "mainnet"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 5.032041083999999,
+    "first_error": null,
+    "log": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/logs/foreign-copy_edit_ticket.log",
+    "source_sha256": "8327fa8eaf5c28bb4de8a82fbd69da12eb1af756cfd76d744c200ed0f8d5aedf"
+  },
+  {
+    "name": "drop_edit_ticket",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/foreign/drop_edit_ticket",
+      "-e",
+      "mainnet"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 1.406521999999999,
+    "first_error": null,
+    "log": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/logs/foreign-drop_edit_ticket.log",
+    "source_sha256": "51526d8c3cf53bbff90bf8df1a5089dfb9d3700b83c33b2a7fd710c244996846"
+  },
+  {
+    "name": "store_edit_ticket",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/foreign/store_edit_ticket",
+      "-e",
+      "mainnet"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 5.361118665999999,
+    "first_error": null,
+    "log": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/logs/foreign-store_edit_ticket.log",
+    "source_sha256": "a8fb2c3e3cc580da0c6e14b57f7a209a99ab85521e50a97c15e68daf277bb538"
+  },
+  {
+    "name": "valid_read_consumer",
+    "command": [
+      "/opt/homebrew/bin/sui",
+      "move",
+      "build",
+      "--path",
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/foreign/valid_read_consumer",
+      "-e",
+      "mainnet"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 5.301963707999999,
+    "first_error": null,
+    "log": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/logs/foreign-valid_read_consumer.log",
+    "source_sha256": "bf6dc47dfd931d46cf9f29f8f39bfd6184590615d308f34e8d47dfb73d964a03"
+  }
+]

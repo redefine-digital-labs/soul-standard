@@ -1,0 +1,123 @@
+[
+  {
+    "repo": "Origin-Byte/protocol",
+    "revision": "e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab",
+    "path": "contracts/nft_protocol/sources/rules/access_policy.move",
+    "local": "upstream/originbyte/access_policy.move",
+    "raw_url": "https://raw.githubusercontent.com/Origin-Byte/protocol/e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab/contracts/nft_protocol/sources/rules/access_policy.move",
+    "source_url": "https://github.com/Origin-Byte/protocol/blob/e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab/contracts/nft_protocol/sources/rules/access_policy.move",
+    "sha256": "732a9de50f8873f9ba72ebaa2cfbf47404e32b385c91cc00ad932b09472875e3",
+    "bytes": 10133,
+    "lines": 317
+  },
+  {
+    "repo": "Origin-Byte/protocol",
+    "revision": "e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab",
+    "path": "contracts/nft_protocol/sources/standards/composability/composable_nft.move",
+    "local": "upstream/originbyte/composable_nft.move",
+    "raw_url": "https://raw.githubusercontent.com/Origin-Byte/protocol/e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab/contracts/nft_protocol/sources/standards/composability/composable_nft.move",
+    "source_url": "https://github.com/Origin-Byte/protocol/blob/e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab/contracts/nft_protocol/sources/standards/composability/composable_nft.move",
+    "sha256": "37a403776eb7543ee4d47f5c04f04851f024f2d861af55a182c30994dda53478",
+    "bytes": 15101,
+    "lines": 458
+  },
+  {
+    "repo": "Origin-Byte/protocol",
+    "revision": "e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab",
+    "path": "contracts/nft_protocol/sources/collection/nft_wrapper.move",
+    "local": "upstream/originbyte/nft.move",
+    "raw_url": "https://raw.githubusercontent.com/Origin-Byte/protocol/e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab/contracts/nft_protocol/sources/collection/nft_wrapper.move",
+    "source_url": "https://github.com/Origin-Byte/protocol/blob/e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab/contracts/nft_protocol/sources/collection/nft_wrapper.move",
+    "sha256": "012cca10172a2710bf44c26654005fcd0132691a05bb315bb81357299453b720",
+    "bytes": 8095,
+    "lines": 282
+  },
+  {
+    "repo": "Origin-Byte/protocol",
+    "revision": "e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab",
+    "path": "contracts/nft_protocol/sources/standards/composability/nft_bag.move",
+    "local": "upstream/originbyte/nft_bag.move",
+    "raw_url": "https://raw.githubusercontent.com/Origin-Byte/protocol/e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab/contracts/nft_protocol/sources/standards/composability/nft_bag.move",
+    "source_url": "https://github.com/Origin-Byte/protocol/blob/e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab/contracts/nft_protocol/sources/standards/composability/nft_bag.move",
+    "sha256": "cc02aedd4dc7f7f6a686e160650fb0d567e4f15c829985c16819058bdc9f2999",
+    "bytes": 12489,
+    "lines": 421
+  },
+  {
+    "repo": "Origin-Byte/protocol",
+    "revision": "e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab",
+    "path": "contracts/permissions/sources/permissions/witness.move",
+    "local": "upstream/originbyte/witness.move",
+    "raw_url": "https://raw.githubusercontent.com/Origin-Byte/protocol/e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab/contracts/permissions/sources/permissions/witness.move",
+    "source_url": "https://github.com/Origin-Byte/protocol/blob/e8e8efd77ab15d7b2cf30958fd748dbb3afbdaab/contracts/permissions/sources/permissions/witness.move",
+    "sha256": "5d82529eb905107394d737ac99146d925dc9c5b30ce89cc1dc9e1b4b93359563",
+    "bytes": 2800,
+    "lines": 68
+  },
+  {
+    "repo": "MystenLabs/sui",
+    "revision": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+    "path": "crates/sui-framework/packages/sui-framework/sources/coin.move",
+    "local": "upstream/sui/coin.move",
+    "raw_url": "https://raw.githubusercontent.com/MystenLabs/sui/2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/coin.move",
+    "source_url": "https://github.com/MystenLabs/sui/blob/2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/coin.move",
+    "sha256": "89a6acba362f52eb210d2c3b48144415aeb6589913c002dbedda3ad67ba0bcbb",
+    "bytes": 23779,
+    "lines": 713
+  },
+  {
+    "repo": "MystenLabs/sui",
+    "revision": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+    "path": "crates/sui-framework/packages/sui-framework/sources/dynamic_object_field.move",
+    "local": "upstream/sui/dynamic_object_field.move",
+    "raw_url": "https://raw.githubusercontent.com/MystenLabs/sui/2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/dynamic_object_field.move",
+    "source_url": "https://github.com/MystenLabs/sui/blob/2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/dynamic_object_field.move",
+    "sha256": "aac0f317aac47de5fa7c1143586182ecf4282736f30e9a68a1d3bf4653ef869a",
+    "bytes": 11311,
+    "lines": 318
+  },
+  {
+    "repo": "MystenLabs/sui",
+    "revision": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+    "path": "crates/sui-framework/packages/sui-framework/sources/kiosk/kiosk.move",
+    "local": "upstream/sui/kiosk.move",
+    "raw_url": "https://raw.githubusercontent.com/MystenLabs/sui/2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/kiosk/kiosk.move",
+    "source_url": "https://github.com/MystenLabs/sui/blob/2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/kiosk/kiosk.move",
+    "sha256": "894551834729eff904a0e9075aa0bf77481919c2352870b4de4d8b831350db85",
+    "bytes": 24024,
+    "lines": 642
+  },
+  {
+    "repo": "MystenLabs/sui",
+    "revision": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+    "path": "examples/move/nft/sources/testnet_nft.move",
+    "local": "upstream/sui/testnet_nft.move",
+    "raw_url": "https://raw.githubusercontent.com/MystenLabs/sui/2a0becb2fcc6989e492981104af67f62f2c9511a/examples/move/nft/sources/testnet_nft.move",
+    "source_url": "https://github.com/MystenLabs/sui/blob/2a0becb2fcc6989e492981104af67f62f2c9511a/examples/move/nft/sources/testnet_nft.move",
+    "sha256": "fba0159be403ec9c76eeeb5d192621c0a7bf5af5f7276b0154509f7b3653ea2d",
+    "bytes": 2190,
+    "lines": 95
+  },
+  {
+    "repo": "MystenLabs/sui",
+    "revision": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+    "path": "crates/sui-framework/packages/sui-framework/sources/token.move",
+    "local": "upstream/sui/token.move",
+    "raw_url": "https://raw.githubusercontent.com/MystenLabs/sui/2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/token.move",
+    "source_url": "https://github.com/MystenLabs/sui/blob/2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/token.move",
+    "sha256": "d28a9996208f0a6369ce40d6dbfd023d1e4944e0a863b33398136ab218027293",
+    "bytes": 24607,
+    "lines": 736
+  },
+  {
+    "repo": "MystenLabs/sui",
+    "revision": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+    "path": "crates/sui-framework/packages/sui-framework/sources/kiosk/transfer_policy.move",
+    "local": "upstream/sui/transfer_policy.move",
+    "raw_url": "https://raw.githubusercontent.com/MystenLabs/sui/2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/kiosk/transfer_policy.move",
+    "source_url": "https://github.com/MystenLabs/sui/blob/2a0becb2fcc6989e492981104af67f62f2c9511a/crates/sui-framework/packages/sui-framework/sources/kiosk/transfer_policy.move",
+    "sha256": "b042d85ecf88f11b504f87bff1e2625bb9fce24c159ee43f1c273f9061066b33",
+    "bytes": 11627,
+    "lines": 300
+  }
+]

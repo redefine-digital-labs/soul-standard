@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/contract-rebuild/local-ptb-2026-10-08/tooling/sui",
+    "move",
+    "test",
+    "--path",
+    "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/move/soulidity_standard",
+    "-e",
+    "mainnet",
+    "--install-dir",
+    "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/private-soul-kernel-20261011-r1/interim/interim-tests"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 7.546491042,
+  "log": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/private-soul-kernel-20261011-r1/logs/interim-tests.log",
+  "gas_limit_override": null,
+  "summary": [
+    "Test result: OK. Total tests: 26; passed: 26; failed: 0"
+  ]
+}

@@ -1,0 +1,27 @@
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY SoulidityStandard
+INCLUDING DEPENDENCY Sui
+BUILDING AuditStoreEditTicket
+[0m[1m[38;5;11mwarning[WC09009][0m[1m: unused struct field[0m
+  [0m[34m┌─[0m ./sources/probe.move:3:37
+  [0m[34m│[0m
+[0m[34m3[0m [0m[34m│[0m public struct Persisted has store { [0m[33mticket[0m: Edit<Origin, Soul> }
+  [0m[34m│[0m                                     [0m[33m^^^^^^[0m [0m[33mThe 'ticket' field of the 'Persisted' type is unused[0m
+  [0m[34m│[0m
+  [0m[34m=[0m This warning can be suppressed with '#[allow(unused_field)]' applied to the 'module' or module member ('const', 'fun', or 'struct')
+
+[0m[1m[38;5;9merror[EC05001][0m[1m: ability constraint not satisfied[0m
+   [0m[34m┌─[0m ./sources/probe.move:3:45
+   [0m[34m│[0m
+[0m[34m 3[0m [0m[34m│[0m public struct Persisted has store { ticket: [0m[31mEdit<Origin, Soul>[0m }
+   [0m[34m│[0m                                             [0m[31m^^^^^^^^^^^^^^^^^^[0m
+   [0m[34m│[0m                                             [0m[31m│[0m
+   [0m[34m│[0m                                             [0m[31mInvalid field type. The struct was declared with the ability 'store' so all fields require the ability 'store'[0m
+   [0m[34m│[0m                                             [0m[34mThe type 'soulidity_standard::soul::Edit<soulidity_standard::soul::Origin, soulidity_standard::soul::Soul>' does not have the ability 'store'[0m
+   [0m[34m│[0m
+   [0m[34m┌─[0m ../dependency/sources/soul.move:72:15
+   [0m[34m│[0m
+[0m[34m72[0m [0m[34m│[0m public struct Edit<phantom W, phantom T> {
+   [0m[34m│[0m               [0m[34m----[0m [0m[34mTo satisfy the constraint, the 'store' ability would need to be added here[0m
+
+Failed to build Move modules: Compilation error.

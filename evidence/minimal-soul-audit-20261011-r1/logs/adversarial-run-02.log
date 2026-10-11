@@ -1,0 +1,43 @@
+[NOTE] Dependencies on Sui, MoveStdlib, Bridge, DeepBook, and SuiSystem are automatically added, but this feature is disabled for your package because you have explicitly included dependencies on Sui. Consider removing these dependencies from `Move.toml`.
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY Sui
+BUILDING SoulidityStandard
+Running Move unit tests
+[ PASS    ] soulidity_standard::audit_adversarial::extension_leaf_change_can_leave_body_and_attested_semantic_hash_equal
+[ PASS    ] soulidity_standard::audit_adversarial::fresh_root_can_be_publicly_frozen_and_read_by_stranger
+[ PASS    ] soulidity_standard::audit_adversarial::fresh_shared_parent_allows_stranger_unnest_original_soul
+[ PASS    ] soulidity_standard::audit_adversarial::fresh_shared_root_allows_stranger_uninstall_original_module
+[ PASS    ] soulidity_standard::audit_adversarial::ownership_transfer_preserves_revision_manifest_and_mint_origin
+[ PASS    ] soulidity_standard::audit_adversarial::permanent_child_edit_cannot_substitute_new_object_id
+[ PASS    ] soulidity_standard::audit_adversarial::permanent_child_valid_edit_keeps_id_and_permanence
+[ PASS    ] soulidity_standard::audit_adversarial::previously_owned_root_cannot_be_newly_shared
+[ PASS    ] soulidity_standard::audit_adversarial::private_owned_root_is_absent_from_stranger_sender_inventory
+[ PASS    ] soulidity_standard::audit_adversarial::private_owned_root_owner_can_access_and_uninstall
+
+Test Statistics:
+
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────┬────────────┬───────────────────────────┐
+│                                                  Test Name                                                   │    Time    │         Gas Used          │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_standard::audit_adversarial::extension_leaf_change_can_leave_body_and_attested_semantic_hash_equal │   0.206    │      49999995000334       │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_standard::audit_adversarial::fresh_root_can_be_publicly_frozen_and_read_by_stranger                │   0.001    │      49999995000135       │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_standard::audit_adversarial::fresh_shared_parent_allows_stranger_unnest_original_soul              │   0.001    │      49999995000235       │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_standard::audit_adversarial::fresh_shared_root_allows_stranger_uninstall_original_module           │   0.001    │      49999995000136       │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_standard::audit_adversarial::ownership_transfer_preserves_revision_manifest_and_mint_origin        │   0.001    │      49999995000135       │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_standard::audit_adversarial::permanent_child_edit_cannot_substitute_new_object_id                  │   0.001    │      49999995000283       │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_standard::audit_adversarial::permanent_child_valid_edit_keeps_id_and_permanence                    │   0.001    │      49999995000307       │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_standard::audit_adversarial::previously_owned_root_cannot_be_newly_shared                          │   0.000    │      49999995000062       │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_standard::audit_adversarial::private_owned_root_is_absent_from_stranger_sender_inventory           │   0.001    │      49999995000121       │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────┼───────────────────────────┤
+│ soulidity_standard::audit_adversarial::private_owned_root_owner_can_access_and_uninstall                     │   0.001    │      49999995000132       │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────┴────────────┴───────────────────────────┘
+
+Test result: OK. Total tests: 10; passed: 10; failed: 0

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/opt/homebrew/bin/sui",
+    "move",
+    "test",
+    "--path",
+    "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-standard/evidence/minimal-soul-audit-20261011-r1/probes/adversarial-kernel",
+    "audit_adversarial",
+    "--statistics"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 4.307937542,
+  "gas_limit_override": null,
+  "fixture_sha256": "d5998881699a9ed1587b7aa9479920d5cfe5e2fcfb66cc7fc03bbc3afc1098f6",
+  "repair": "Fixture-only local revision read before mutable argument; EC07002 retained in run01. No production change."
+}
