@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "independent_reader": "community_source_migration_review",
+  "source_production_sha_preserved": 52,
+  "test_migration": "five Community tests namespace only; original assertions and fixtures preserved",
+  "production_test_helpers": "Community18 and Standard init_for_testing absent from production bytecode",
+  "tool_finding": "Full before/after input-map comparison fixed and reviewed",
+  "control_flow_negative_cases": 19,
+  "control_flow_evidence": "ecosystem-devops/tools/move-validation/evidence/checker-v2/checker-control-flow-review.json",
+  "scope": "Actual source/test migration and local production/VM evidence only; no full product/remote CI/published linkage acceptance",
+  "transactions": 0
+}
